@@ -1,0 +1,28 @@
+/* .crunchy {
+    position: absolute;
+    top: 30%;
+    left: -50px;
+    transform: rotate(90deg);
+    transform-origin: left top;
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffdf00;
+    white-space: nowrap;
+    z-index: 10;
+    margin-bottom: 0;
+    padding-bottom: 0;
+} */
+.crunchy {
+    position: absolute;
+    top: 10%; /* Cambia este valor para ajustar verticalmente */
+    left: -50px; /* Cambia este valor para ajustar horizontalmente */
+    transform: rotate(90deg);
+    transform-origin: left top;
+    font-size: 120px;
+    font-weight: bold;
+    color: #ffdf00;
+    white-space: nowrap;
+    z-index: 15; /* Mayor que el header */
+    margin: 0;
+    padding: 0;
+}

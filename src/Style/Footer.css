@@ -1,0 +1,87 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.3s ease; /* Animación suave al cambiar de estado */
+
+}
+
+.menu-open .footer {
+    position: relative;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px; /* Reducir padding */
+    box-sizing: border-box;
+}
+
+.bank-info {
+    background-color: #ffdf00;
+    color: black;
+    padding: 5px 10px; /* Reducir padding */
+    margin: 0 auto 10px auto; /* Reducir margin-bottom */
+    max-width: 500px;
+    font-weight: bold;
+    font-size: 16px; /* Ajustar tamaño de fuente */
+    border-radius: 10px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Reducir el espacio entre rectángulos */
+    margin-bottom: 0px;
+}
+
+.info-box {
+    background-color: #ffdf00;
+    color: black;
+    font-size: 14px; /* Reducir tamaño de fuente */
+    border-radius: 10px;
+    flex: 1;
+    max-width: 250px; /* Reducir ancho máximo */
+    padding: 5px 10px; /* Añadir padding para espacio interno */
+    margin: 0;
+}
+
+.info-box h4 {
+    margin-top: 0;
+    margin-bottom: 5px; /* Reducir margen entre título y párrafo */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.info-box p {
+    margin: 0;
+}
+
+.footer-rights {
+    margin-top: 0px; /* Reducir margen superior */
+    font-size: 12px; /* Reducir tamaño de fuente */
+    color: #ccc;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+    .info-boxes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        max-width: 90%;
+        margin-bottom: 10px; /* Reducir margin-bottom */
+    }
+
+    .footer-rights {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,159 @@
+.menu-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 600px;
+    background-color: #000000;
+    box-sizing: border-box;
+    min-height: calc(100vh - 80px);
+}
+
+.menu-title {
+    margin-top: 0;
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: #494848;
+    text-align: center;
+}
+
+.hamburguesa-box {
+    width: 100%;
+    text-align: center;
+    background-color: #ffdf00;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.hamburguesa-title {
+    font-size: 28px;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+    margin: 0;
+    position: relative;
+    /* animation: slide 3s ease-in-out infinite; */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    50% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+}
+
+.menu-item {
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item-name {
+    font-size: 22px;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.line-container {
+    flex-grow: 1;
+    height: 2px;
+    background-color: white;
+}
+
+.item-price {
+    white-space: nowrap;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.item-description {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+@media (max-width: 1024px) {
+    .menu-container {
+        padding: 15px;
+    }
+
+    .menu-title {
+        font-size: 32px;
+    }
+
+    .hamburguesa-title {
+        font-size: 26px;
+    }
+
+    .item-name {
+        font-size: 20px;
+    }
+
+    .item-description {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-container {
+        padding: 10px;
+    }
+
+    .menu-title {
+        font-size: 28px;
+    }
+
+    .hamburguesa-title {
+        font-size: 24px;
+    }
+
+    .item-name {
+        font-size: 18px;
+    }
+
+    .item-description {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-container {
+        padding: 8px;
+    }
+
+    .menu-title {
+        font-size: 24px;
+    }
+
+    .hamburguesa-title {
+        font-size: 22px;
+    }
+
+    .item-name {
+        font-size: 18px;
+    }
+
+    .item-description {
+        font-size: 14px;
+    }
+
+    .item-price {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+}
