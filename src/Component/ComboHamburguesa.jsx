@@ -33,12 +33,11 @@ const ComboHamburguesa = () => {
                 <div className="item-name">
                     <span><strong>COMBO 3</strong></span>
                     <div className="line-container"></div>
-                    <span className="item-price"><strong>$ 185</strong></span>
+                    <span className="item-price"><strong>$ 150</strong></span>
                 </div>
                 <p className="item-description" style={{ fontSize: '15px' }}>
                     Hamburguesa hawaiana <br />
-                    Palitos de queso mozzarella (2 pzs) <br />
-                    Aros de cebolla (4 pzs)
+                    Papas a la francesa <br />
                 </p>
 
                 <div className="item-name">

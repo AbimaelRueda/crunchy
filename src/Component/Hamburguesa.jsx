@@ -54,10 +54,10 @@ const Hamburguesa = () => {
                 <div className="item-name">
                     <span><strong>CRUNCHY</strong></span>
                     <div className="line-container"></div>
-                    <span className="item-price"><strong>$ ?</strong></span>
+                    <span className="item-price"><strong>$ 115</strong></span>
                 </div>
                 <p className="item-description" style={{ fontSize: '15px' }}>
-                    Carne de sirloin o arrachera, salchicha <br />
+                    Carne de sirloin o arrachera, aros de <br />
                     cebolla, mayonesa de la casa y pepinillos. <br />
                 </p>
 
