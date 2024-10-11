@@ -26,7 +26,7 @@ const Bebidas = () => {
                 <div className="item-name">
                     <span><strong>REFRESCO EN LATA</strong></span>
                     <div className="line-container"></div>
-                    <span className="item-price"><strong>$ 75</strong></span>
+                    <span className="item-price"><strong>$ 25</strong></span>
                 </div>
                 <p className="item-description" style={{ fontSize: '15px' }}>
                     500 Ml. <br />
