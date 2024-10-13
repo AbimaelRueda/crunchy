@@ -70,7 +70,7 @@ const Hamburguesa = () => {
                     Carne de sirloin ó arrachera, salchicha, <br />
                     tocino, champiñones, jamón, queso <br />
                     amarillo, cebolla caramelizada, salsa BBQ, <br />
-                    mayonesa de la casa<br />
+                    mayonesa de la casa.<br />
                 </p>
             </div>
         </div>
