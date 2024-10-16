@@ -8,7 +8,7 @@ const Alitas = () => {
             <Crunchy />
             <h1 className="menu-title">MENÚ</h1>
             <div className="hamburguesa-box">
-                <h4 className="hamburguesa-title">SNACKS</h4>
+                <h4 className="hamburguesa-title">ALITAS</h4>
             </div>
             <div className="menu-item">
                 <div className="item-name">
@@ -51,9 +51,11 @@ const Alitas = () => {
 
                 <p className="item-description" style={{ fontSize: '15px' }}>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ MANGO HABANERO <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ TAMARINDO <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ TAMARINDO CHIPOTLE <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ RANCH <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ BÚFALO <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ BBQ <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ PELÓN PELO RICO <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ FRESA HABANERO <br />
                 </p>
             </div>
         </div>
