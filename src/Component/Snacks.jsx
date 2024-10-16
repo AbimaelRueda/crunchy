@@ -46,11 +46,12 @@ const HotDogs = () => {
                     200 grs <br />
                 </p>
                 <p className="item-description" style={{ fontSize: '15px' }}>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ NATURALES <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ TAMARINDO CHIPOTLE <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ MANGO HABANERO <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ FRESA HABANERO <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ PELÓN PELORICO <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ PELÓN PELO RICO <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ BBQ <br />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;★ RANCH <br />
                 </p>
 
                 <div className="item-name">
